@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "job03/src",
         "job02/src",
         "job01/src",
         "job00/src",
-        "job03/src"
+        "job04/src"
     ]
 }
