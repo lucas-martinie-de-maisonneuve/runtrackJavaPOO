@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         char v1 = 'A';
@@ -16,6 +17,7 @@ public class Main {
 
         int TOTO = (int) 3.817;
         System.out.println("TOTO : " + TOTO);
-            // On remarque que 3.817 en int est arrondi à 3
+            // On remarque que 3.817 en int est arrondi à 3 une fois converti 
+            // (sinon il n'est pas possible de la déclarer)
     }
 }
