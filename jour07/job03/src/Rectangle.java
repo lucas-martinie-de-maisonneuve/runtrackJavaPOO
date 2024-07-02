@@ -1,6 +1,6 @@
-class Rectangle {
-    private Double largeur;
-    private Double longueur;
+class Rectangle{
+    protected Double largeur;
+    protected Double longueur;
 
     public Rectangle(Double largeur, Double longueur) {
         this.largeur = largeur;

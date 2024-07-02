@@ -1,7 +1,7 @@
 class Cercle {
-    private double x;
-    private double y;
-    private double rayon;
+    protected double x;
+    protected double y;
+    protected double rayon;
 
     public Cercle(double x, double y, double rayon) {
         this.x = x;

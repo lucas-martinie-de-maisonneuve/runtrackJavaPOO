@@ -1,5 +1,5 @@
 class RectangleColore extends Rectangle {
-    private int couleur;
+    protected int couleur;
 
     public RectangleColore(double largeur, double longueur, int couleur) {
         super(largeur, longueur);
