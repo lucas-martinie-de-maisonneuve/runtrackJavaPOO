@@ -30,7 +30,7 @@ public class Voiture extends Vehicules {
         }
 
         // En fonction du kilométrage
-        int tranchesKilometrage = (int) Math.round((double) kilometrage / 10000);
+        int tranchesKilometrage = kilometrage / 10000;
         prixCourant -= prixAchat * 0.05 * tranchesKilometrage;
 
         // En fonction de la marque
