@@ -19,8 +19,6 @@ class ABCDEF {
          * d = e; --> Vrai
          */
 
-        System.out.println(b);
-
         A[] as = new A[10];
         as[0] = new A();
         as[1] = new B();
@@ -29,9 +27,6 @@ class ABCDEF {
         as[4] = new C();
         as[5] = new D(4);
         as[6] = new B();
-
-        System.out.println(as[1]);
-        System.out.println(as[4]);
 
         rechercher(as);
         additionner(as);
@@ -46,11 +41,16 @@ class ABCDEF {
             }
         }
         System.out.println("Il y à " + count + " instance de B dans le tableau");
-
     }
 
     private static void additionner(A[] as) {
-
+        int count = 0;
+        for(A a : as ){
+            if (a instanceof D){
+                count += ((D) a).d;
+            }
+        }
+        System.out.println("La somme des variables d de D est de " + count);
     }
 
 }
