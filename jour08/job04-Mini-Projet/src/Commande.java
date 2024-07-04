@@ -37,10 +37,12 @@ public class Commande {
 
     /* -------- Méthode d'affichage ----------- */
     protected void affiche() {
-        System.out.println("--- Commande ---");
-        System.out.println(" > Numéro de commande : " + numCommande);
-        System.out.println(" > Date de commande : " + dateCommande);
-        System.out.println(" > Client : " + client.nomSocial);
+        System.out.println(
+            "\n--- Commande ---"+
+            "\n > Numéro de commande : " + numCommande +
+            "\n > Date de commande : " + dateCommande +
+            "\n > Client : " + client.nomSocial
+            );
     }
 
 }

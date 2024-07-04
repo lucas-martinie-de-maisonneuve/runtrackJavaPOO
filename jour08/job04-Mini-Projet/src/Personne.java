@@ -37,10 +37,9 @@ abstract class Personne {
 
     /* -------- Méthode d'affichage ----------- */
     protected void affiche() {
-        System.out.println("--- PERSONNE ---");
-        System.out.println(" > Identité : " + identite);
-        System.out.println(" > Nom : " + nomSocial);
-        System.out.println(" > Adresse : " + adresse);
+        System.out.println(
+            "\n--- Information sur la personne ---" + 
+        "\nNom : " + nomSocial + " (ID: " + identite + ") \nAdresse : " + adresse);
     }
 
 }

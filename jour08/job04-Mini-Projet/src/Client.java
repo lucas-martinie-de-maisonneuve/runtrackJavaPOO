@@ -23,6 +23,6 @@ public class Client extends Personne {
      */
     public void affiche() {
         super.affiche();
-        System.out.println(" > chiffreAffaire : " + chiffreAffaire);
+        System.out.println("(ChiffreAffaire : " + chiffreAffaire +" euros)" );
     }
 }
