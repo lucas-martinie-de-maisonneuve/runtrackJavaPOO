@@ -34,11 +34,13 @@ public class Ligne {
     }
 
     public void affiche() {
-        System.out.println("\n------- Recap ------ ");
+        System.out.println("\n------- Client ------ ");
         commande.getClient().affiche();
+        System.out.println("\n------- Commande ------ ");
         commande.affiche();
+        System.out.println("\n------- Article ------ ");
         article.affiche();
-        
+
         System.out.println("Quantité commandé : " + quantiteCommande);
     }
 }

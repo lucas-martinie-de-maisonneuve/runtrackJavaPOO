@@ -7,7 +7,7 @@ public class Client extends Personne {
         this.chiffreAffaire = chiffreAffaire;
     }
 
-        /* --------Setter -- Getter----------- */
+    /* --------Setter -- Getter----------- */
     public void setChiffreAffaire(double chiffreAffaire) {
         this.chiffreAffaire = chiffreAffaire;
     }
@@ -23,6 +23,6 @@ public class Client extends Personne {
      */
     public void affiche() {
         super.affiche();
-        System.out.println("(ChiffreAffaire : " + chiffreAffaire +" euros)" );
+        System.out.println("(ChiffreAffaire : " + chiffreAffaire + " euros)");
     }
 }

@@ -55,10 +55,6 @@ public class Article {
 
     /* -------- Méthode d'affichage ----------- */
     public void affiche() {
-        System.out.println("--- Article ---");
-        System.out.println(" > Reference : " + reference);
-        System.out.println(" > Designation : " + designation);
-        System.out.println(" > Prix unitaire : " + prixUnitaire + " euros");
-        System.out.println(" > Quantite en stock : " + quantiteStock);
+        System.out.println("(Ref : " + reference + ") " + designation +" - Prix : " + prixUnitaire + " euros - "+ quantiteStock + " en stock");
     }
 }
