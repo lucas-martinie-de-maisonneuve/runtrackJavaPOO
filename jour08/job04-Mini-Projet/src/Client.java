@@ -7,7 +7,7 @@ public class Client extends Personne {
         this.chiffreAffaire = chiffreAffaire;
     }
 
-    /* --------Setter -- Getter----------- */
+        /* --------Setter -- Getter----------- */
     public void setChiffreAffaire(double chiffreAffaire) {
         this.chiffreAffaire = chiffreAffaire;
     }
